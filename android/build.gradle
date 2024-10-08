@@ -27,7 +27,7 @@ apply plugin: 'kotlin-android'
 android {
 
     if (project.android.hasProperty("namespace")) {
-        namespace 'co.eyro.image_compression_flutter'
+        namespace 'id.co.eyro.image_compression_flutter'
     }
     
     compileSdkVersion 34
